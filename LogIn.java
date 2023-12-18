@@ -126,7 +126,7 @@ class LoginPage implements ActionListener {
             if (loginInfo.get(userID).equals(password)) {
                 messageLabel.setForeground(new Color(102, 51, 0)); // Dark Brown font color
                 messageLabel.setText("Login successful");
-                new Menu(userID);
+                new Menu(userID); //ALISDI NALANG SA NAME SA CLASS SA DASHBOARD
                 frame.dispose();
             } else {
                 messageLabel.setForeground(Color.red);
